@@ -17,10 +17,10 @@ header {
     color: white;
 }
 
-header h4 {
-    margin: 0;
-    font-size: 20px;
-}
+    header h4 {
+        margin: 0;
+        font-size: 20px;
+    }
 
 /* ===== Navigation Links (Descendant Selector) ===== */
 nav a {
@@ -31,22 +31,22 @@ nav a {
     transition: 0.3s;
 }
 
-/* Hover Effect */
-nav a:hover {
-    color: #facc15;
-}
+    /* Hover Effect */
+    nav a:hover {
+        color: #facc15;
+    }
 
 /* ===== Hero Section using Flexbox ===== */
 table {
     width: 100%;
 }
 
-table tr {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 50px;
-}
+    table tr {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 50px;
+    }
 
 h1 {
     font-size: 36px;
@@ -96,20 +96,20 @@ input[type="submit"] {
     transition: 0.3s;
 }
 
-/* Button Hover Effect */
-input[type="submit"]:hover {
-    background-color: #facc15;
-    color: black;
-}
+    /* Button Hover Effect */
+    input[type="submit"]:hover {
+        background-color: #facc15;
+        color: black;
+    }
 
 /* ===== Social Icons Hover ===== */
 #contact img {
     transition: transform 0.3s ease;
 }
 
-#contact img:hover {
-    transform: scale(1.2);
-}
+    #contact img:hover {
+        transform: scale(1.2);
+    }
 
 /* ===== Footer ===== */
 footer {
@@ -146,3 +146,41 @@ footer {
         width: 100%;
     }
 }
+
+/*=====  Dark Mode ===== */
+.dark-mode {
+    background-color: #111;
+    color: rgb(239, 6, 6);
+}
+
+    .dark-mode header,
+    .dark-mode footer {
+        background-color: black;
+    }
+
+    .dark-mode h1,
+    .dark-mode h3 {
+        color: #facc15;
+    }
+
+    .dark-mode #about,
+    .dark-mode #skills,
+    .dark-mode #contact,
+    .dark-mode #gallery {
+        background-color: #111;
+        /*=====  Gallery ===== */
+        #gallery
+
+{
+    padding: 40px 50px;
+}
+
+#gallery img {
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #gallery img:hover {
+        transform: scale(1.1);
+    }
